@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Mugen-blog';
+constructor(private activatedRoute: ActivatedRoute)
+{
+  console.log(this.activatedRoute.url);
+}
+
 }

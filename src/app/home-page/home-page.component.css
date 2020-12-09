@@ -1,0 +1,68 @@
+.body
+{
+background-image: url("https://wallpaperaccess.com/full/250472.jpg");
+}
+.marketing {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background-color: skyblue;
+  }
+
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  .featurette-heading-1{
+      font-size: xx-large;
+  }
+ 
+  .featurette-1{
+      background-color: yellowgreen;
+  }
+  
+  .featurette-2{
+    background-color: orangered;
+} 
+ 
+.featurette-3{
+    background-color: violet;
+}
+.vip-button{
+    background-color: black;
+    color:gold;
+    font-weight: bold;
+}
+.vip-button:hover{
+    background-color: gold;
+    color:black;
+    font-weight: bolder;
+}
+ 
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+  
+  @media (min-width: 40em) {
+    
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }

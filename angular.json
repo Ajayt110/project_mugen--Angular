@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Mugen-blog"
+    }
+  },
+  "defaultProject": "Mugen-blog",
+  "cli": {
+    "analytics": "5ae7b408-e320-4d7f-80fe-92b95fac7f9d"
+  }
 }

@@ -1,0 +1,19 @@
+<div class="container-fluid jumbotron">
+    <div class="heading">Your Stories</div>
+     <!-- <div class="jumbotron" *ngIf="stories.length">
+        <p class="display-1">Please write a new Story. You have no stories.</p>
+    </div>  -->
+    <div class="story-details" *ngFor="let story of stories">
+        <p class="story-title flex-auto">{{story.title}}</p>
+        <hr>
+        <p class="story-content flex-auto">{{story.content}}</p> 
+        <br>
+        <button type="submit" class="btn btn-secondary edit-story" (click)="edit(story.title)">Edit Story</button>
+    </div>
+    <br><br>
+    <!-- <button type="submit" class="btn btn-primary add-story center" (click)="onAddStory()" routerLink="add-story">Add Story</button> -->
+    <a class="btn btn-primary add-story" (click)="onAddStory()">Add Story</a>
+</div>
+<router-outlet></router-outlet>
+
+

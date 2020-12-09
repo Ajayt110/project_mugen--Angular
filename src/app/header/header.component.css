@@ -1,0 +1,51 @@
+
+.nav-list{
+    color: black;
+}
+.nav-list :hover{
+    color: black;
+}
+.brand-title{
+    font-size: x-large;
+}
+.brand-title :hover{
+    color: ;
+}
+.vip-link :hover{
+    color: gold;
+ }
+.register-button{
+    background-color: lime;
+    color:white ;
+    margin-left: 800px;
+}
+.register-button:hover{
+    color: white;
+    background-color: limegreen;  
+}
+.login{
+margin-left: 15px;
+background-color: white;
+border: skyblue solid 0.5px;
+border-radius: 5px;
+}
+.login:hover{
+    margin-left: 15px;
+    
+    border-radius: 3px;
+    background-color: skyblue;
+    }
+
+.brand-list{
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: x-large; 
+    padding-right: 10px;
+    color: crimson;
+}
+.brand-list:hover{
+    color: maroon;
+}
+
+
+

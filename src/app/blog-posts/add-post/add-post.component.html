@@ -1,0 +1,19 @@
+<body class="text-center">
+    <form class="form-group" >
+       
+      <h1 class="h3 mb-3 font-weight-normal">Your Story</h1>
+      <br>
+      <div class="error-message display-error" id="error-message">Title or Story Content shouldn't be empty.</div>
+      <br>
+      <label for="inputTitle" class="sr-only">Story Title</label>
+      <input type="text" id="story-title" class="form-control" placeholder="Title" 
+      required autofocus [(ngModel)]="story.title" name="title">
+      <br>
+      <label for="inputContent" class="sr-only">Story Description</label>
+      <textarea type="text" id="story-Content" class="form-control" placeholder="Content" 
+      required [(ngModel)]="story.content" name="content" rows="4" cols="100"></textarea>
+      <br>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="onAddStory()">Save Story</button>
+    </form>
+</body>
+<router-outlet></router-outlet>
